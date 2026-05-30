@@ -1,0 +1,6 @@
+BatchSize - liczba przykładów treningowych, które model przetwarza na raz w jednym momencie zanim zaaktualizuje swoje wagi.
+torch.manual_seed() - sprawia że operacje losowe za każdym razem są takie same
+all_text - musimy złączyć wszystkie zdania w jeden ciąg, żeby wyciągnąć wszyskie unikalne znaki
+Tokenizer - Jest to "tłumacz" (właśny unikalny alfabet). Tłumaczy on tekst na liczby. W kodzie jest (Character-level-tokenizer). 
+W modelach większych wykorzystuje się tokenizer sub-słowotwórczy, czyli rozbija słowa na kawałki, daje to bardzo duże słowniki. 
+
